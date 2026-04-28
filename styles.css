@@ -1,0 +1,38 @@
+html{
+ height:100%;
+}
+body{
+margin:0px;
+ height:100%;
+}
+.wrp{
+height:100%;
+display: flex;
+flex-direction:column;
+align-items:start;
+justify-content:center;
+}
+.wrp .languageBlock{
+margin:10px;
+display:flex;
+flex-direction:column;
+}
+.wrp .languageBlock aside{
+display:flex;
+flex-direction:column;
+}
+.wrp .languageBlock aside .info{
+font-size:16px;
+margin-bottom:2px;
+}
+.wrp .languageBlock aside a{
+margin-bottom:10px;
+}
+.wrp .languageBlock aside a button{
+font-size:25px;
+padding:10px;
+border-radius:15px;
+border:1px solid black;
+color:#333333;
+background-color: white;
+}
