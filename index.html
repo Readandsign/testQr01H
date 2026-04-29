@@ -40,7 +40,7 @@ const data = params.get('qr_id');
 
 // Проверка
 if (data) {
-    alert("Данные из QR кода:", data);
+    document.querySelector("body").innerText = data;
 } else {
     alert("Нет данных в QR коде");
 }
