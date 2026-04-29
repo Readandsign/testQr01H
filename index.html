@@ -39,8 +39,8 @@ const params = new URLSearchParams(window.location.search);
 const data = params.get('qr_id');
 
 // Проверка
-if (data) {
-    document.querySelector("body").innerText = data;
+if (data === true) {
+    document.querySelector("body").textContent = data;
 } else {
     alert("Нет данных в QR коде");
 }
