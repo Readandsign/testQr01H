@@ -24,14 +24,14 @@ flex-direction:column;
 align-items:start;
 }
 .wrp .languageBlock aside .info{
-font-size:clamp(10px, 7vw, 58px);
+font-size:clamp(10px, 8vw, 58px);
 margin-bottom:2px;
 }
 .wrp .languageBlock aside a{
 margin-bottom:10px;
 }
 .wrp .languageBlock aside a button{
-font-size:clamp(15px, 7vw, 68px);
+font-size:clamp(15px, 8vw, 68px);
 padding:10px;
 border-radius:15px;
 border:1px solid black;
