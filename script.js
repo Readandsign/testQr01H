@@ -8,7 +8,7 @@ const button = wrp.querySelectorAll(".button");
 const params = new URLSearchParams(window.location.search);
 
 const arr = [
-{id : "0000", videos : ["link1", "link2", "link3"]},
+{id : "0000", videos : ["https://youtu.be/h4q9tHf01A0?si=cLLWnetuyfnhDxfp", "link2", "link3"]},
 {id : "0001", videos : ["aaa", "bbb", "ccc"]},
 {id : "0002", videos : ["AAA", "BBB", "CCC"]}
 ];
