@@ -24,7 +24,7 @@ flex-direction:column;
 align-items:start;
 }
 .wrp .languageBlock aside .info{
-font-size:clamp(28px, 8vw, 68px);
+font-size:clamp(8px, 8vw, 48px);
 margin-bottom:2px;
 }
 .wrp .languageBlock aside a{
