@@ -16,7 +16,7 @@ videos : ["https://youtu.be/CCNz69pTqrY?si=Bkmd92OT4M2PcMXx", "https://youtu.be/
 
 Object.freeze(arr);
 
-if(params.get("id") != null && params.get("id").length < 5){
+if(params.get("id") != null && params.get("id").length < 4){
 for(let i = 0; i < arr.length; i++){
 if(params.get("id") === arr[i].id){
 for(let k = 0; k < 3; k++){
